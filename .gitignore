@@ -1,13 +1,16 @@
 json_unit
 json_benchmarks
-
 fuzz-testing
 
 *.dSYM
+*.o
+*.gcno
+*.gcda
 
 working
 
-html
+doc/xml
+doc/html
 me.nlohmann.json.docset
 
-android
+benchmarks/files/numbers/*.json
